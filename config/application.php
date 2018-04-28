@@ -81,3 +81,20 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/**
+ * Bedrock required files
+ *
+ * Add or remove files to the array as needed.
+ */
+if (env('CDK_CUSTOM')) {
+    $files = explode(',', env('CDK_CUSTOM'));
+
+    array_map(function ($file) use ($error) {
+        $file = __DIR__ . "/custom/{$file}.php";
+
+        if (file_exists($file)) {
+            require_once $file;
+        }
+    }, $files);
+}

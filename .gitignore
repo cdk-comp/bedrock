@@ -18,3 +18,9 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+
+# Development
+.idea
+
+# OS
+.DS_Store
