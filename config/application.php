@@ -88,6 +88,7 @@ if (!defined('ABSPATH')) {
  * Add or remove files to the array as needed.
  */
 if (env('CDK_CUSTOM')) {
+    $error = '';
     $files = explode(',', env('CDK_CUSTOM'));
 
     array_map(function ($file) use ($error) {
