@@ -1,6 +1,6 @@
 # [Bedrock](https://roots.io/bedrock/)
-[![Packagist](https://img.shields.io/packagist/v/cdk-rock/bedrock.svg?style=flat-square)](https://packagist.org/packages/cdk-rock/bedrock)
-[![Build Status](https://img.shields.io/travis/cdk-rock/bedrock.svg?style=flat-square)](https://travis-ci.org/cdk-rock/bedrock)
+[![Packagist](https://img.shields.io/packagist/v/cdk-comp/bedrock.svg?style=flat-square)](https://packagist.org/packages/cdk-comp/bedrock)
+[![Build Status](https://img.shields.io/travis/cdk-comp/bedrock.svg?style=flat-square)](https://travis-ci.org/cdk-comp/bedrock)
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
