@@ -1,10 +1,15 @@
 <?php
-/** Custom */
-define( 'WP_POST_REVISIONS', 3 );
-define('AUTOSAVE_INTERVAL', 86400);
+/**
+ * Custom Configuration overrides
+ */
 
-define('WP_MEMORY_LIMIT', env('CDK_MEMORY'));
-define('WP_MAX_MEMORY_LIMIT', env('CDK_MEMORY'));
+use Roots\WPConfig\Config;
 
-define( 'MEDIA_TRASH', true );
-define( 'EMPTY_TRASH_DAYS', 10 );
+Config::define('WP_POST_REVISIONS', 3);
+Config::define('AUTOSAVE_INTERVAL', 86400);
+
+Config::define('WP_MEMORY_LIMIT', env('CDK_MEMORY'));
+Config::define('WP_MAX_MEMORY_LIMIT', env('CDK_MEMORY'));
+
+Config::define('MEDIA_TRASH', true);
+Config::define('EMPTY_TRASH_DAYS', 10);

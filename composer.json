@@ -1,5 +1,5 @@
 {
-  "name": "roots/bedrock",
+  "name": "cdk-comp/bedrock",
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
@@ -14,13 +14,18 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Dima Minka",
+      "email": "cdk@cdk.co.il",
+      "homepage": "https://github.com/dimaminka"
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp", "cdk"
   ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
+    "issues": "https://github.com/cdk-comp/bedrock/issues",
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
@@ -39,10 +44,12 @@
     "johnpbloch/wordpress": "4.9.8",
     "oscarotero/env": "^1.1.0",
     "roots/multisite-url-fixer": "^1.1",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "roots/wp-config": "1.0.0"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.0.2"
+    "squizlabs/php_codesniffer": "^3.0.2",
+    "roave/security-advisories": "dev-master"
   },
   "extra": {
     "installer-paths": {

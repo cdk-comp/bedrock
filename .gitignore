@@ -16,11 +16,12 @@ web/.htaccess
 !.env.example
 
 # Composer
-vendor/*
-!vendor/.gitkeep
+/vendor
 
 # Development
 .idea
+logs
 
 # OS
 .DS_Store
+
