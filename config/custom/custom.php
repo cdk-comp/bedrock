@@ -17,7 +17,7 @@ Config::define('WP_MAX_MEMORY_LIMIT', env('CDK_MEMORY'));
 Config::define('MEDIA_TRASH', true);
 // The length of days before items are permanently delete
 Config::define('EMPTY_TRASH_DAYS', 10);
-// Disable WordPress cron 
+// Disable WordPress cron
 Config::define('DISABLE_WP_CRON', true);
 // Define Google Tag Manager ID
 Config::define('WP_GTM', env('WP_GTM'));
