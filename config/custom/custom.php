@@ -21,3 +21,6 @@ Config::define('EMPTY_TRASH_DAYS', 10);
 Config::define('DISABLE_WP_CRON', true);
 // Define Google Tag Manager ID
 Config::define('WP_GTM', env('WP_GTM'));
+// Define WP Rocket license
+Config::define('WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL'));
+Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
