@@ -5,6 +5,8 @@
 
 use Roots\WPConfig\Config;
 
+// Define CDK_CUSTOM for true
+Config::define('CDK_CUSTOM', true);
 // Changing the Number of Revisions to Save for Posts
 Config::define('WP_POST_REVISIONS', 3);
 // Change the Autosave Interval
