@@ -18,10 +18,5 @@ web/.htaccess
 # Composer
 /vendor
 
-# Development
-.idea
-logs
-
-# OS
-.DS_Store
-
+# WP-CLI
+wp-cli.local.yml
