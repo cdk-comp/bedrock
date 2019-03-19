@@ -22,7 +22,7 @@
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp", "cdk"
+    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config", "cdk"
   ],
   "support": {
     "issues": "https://github.com/cdk-comp/bedrock/issues",
