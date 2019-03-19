@@ -24,7 +24,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 1. Create a new project:
     ```sh
-    $ composer create-project roots/bedrock
+    $ composer create-project cdk-comp/bedrock
     ```
 2. Update environment variables in the `.env` file:
   * Database variables
