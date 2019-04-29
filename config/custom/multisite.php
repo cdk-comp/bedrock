@@ -17,7 +17,7 @@ if (filter_var(env('WP_MULTISITE_SUBDOMAIN_INSTALL'), FILTER_VALIDATE_BOOLEAN)) 
 
 Config::define('WP_ALLOW_MULTISITE', env('WP_ALLOW_MULTISITE'));
 Config::define('MULTISITE', env('WP_MULTISITE'));
-Config::define('SUBDOMAIN_INSTALL', false);
+Config::define('SUBDOMAIN_INSTALL', env('SUBDOMAIN_INSTALL'));
 Config::define('DOMAIN_CURRENT_SITE', env('CDK_HOST'));
 Config::define('PATH_CURRENT_SITE', '/');
 Config::define('SITE_ID_CURRENT_SITE', 1);
