@@ -23,6 +23,13 @@ Config::define('EMPTY_TRASH_DAYS', 10);
 Config::define('DISABLE_WP_CRON', true);
 // Define Google Tag Manager ID
 Config::define('WP_GTM', env('WP_GTM'));
+// Define WPMS settings
+Config::define('WPMS_ON', env('WPMS_ON') ?: false);
+Config::define('WPMS_SMTP_PASS', env('WPMS_SMTP_PASS') ?: false);
 // Define WP Rocket license
 Config::define('WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL'));
 Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
+// Define Elementor Pro license
+Config::define('CDK_ELEMENTOR_PRO', env('CDK_ELEMENTOR_PRO'));
+// Define Advanced Custom Fields Pro license
+Config::define('CDK_ACF_PRO', env('CDK_ACF_PRO'));
